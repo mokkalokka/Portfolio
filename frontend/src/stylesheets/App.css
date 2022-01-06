@@ -1,0 +1,19 @@
+.bg-image{
+    background-image: url("../assets/monstera_bg-min.jpg");
+   /* <a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by freepik - www.freepik.com</a>*/
+    background-repeat: repeat-y;
+    background-size: cover ;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+

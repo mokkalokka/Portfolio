@@ -1,0 +1,123 @@
+
+.bg-opaque {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.navbar h1 {
+    font-family: "Courier New" !important;
+    font-size: x-large;
+}
+
+/*.navbar{
+    background: rgb(239,239,187);
+    background: linear-gradient(90deg, rgba(239,239,187,1) 34%, rgba(212,211,221,1) 89%);
+}*/
+
+.text-shadow {
+    text-shadow: -1px -1px 2px rgba(255, 255, 255, 0.5);
+}
+
+.card-img {
+    height: 400px;
+    /*width: 600px;*/
+    object-fit: cover;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.carousel-item-custom {
+    height: 95vh;
+}
+
+.carousel-item-custom a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.carousel-item-custom a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+/*!*!/ Small devices (landscape phones, less than 768px)*!*/
+@media (max-width: 767.98px) {
+    .container {
+        min-width: 100vw !important;
+    }
+
+    .carousel-control-prev {
+        left: 0 !important;
+
+
+    }
+
+    .carousel-control-next {
+        right: 0 !important;
+
+    }
+}
+
+/*!/ Large devices (desktops, less than 1500)*/
+@media (max-width: 1499.98px) {
+    .container {
+        max-width: 700px;
+        min-height: 800px;
+    }
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-prev {
+    left: -70px;
+    top: 50%;
+}
+
+.carousel-control-next {
+    right: -70px;
+    top: 50%;
+}
+
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-indicators li {
+    background-color: black !important;
+}
+
+.full-height{
+    /*height:95vh;*/
+}
+
+
+.transitions-item {
+    overflow: hidden;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: 800;
+    text-transform: uppercase;
+    will-change: transform, opacity, height;
+    white-space: nowrap;
+    cursor: pointer;
+    line-height: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+    .transitions-item{
+        font-size: 2em;
+    }
+}
+
+
+.carousel{
+
+}
+
+
